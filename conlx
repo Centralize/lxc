@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+CONTAINER=$1
+
+lxc exec $CONTAINER -- /bin/bash

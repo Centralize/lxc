@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+OS=$1
+NAME=$2
+
+lxc launch $OS $NAME --profile default --profile macvlan
+exit 0
