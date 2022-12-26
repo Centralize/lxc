@@ -1,11 +1,13 @@
-name: build-deb-action
-uses: Centralize/lxc@97ce03d5334e3f032026bb472d31fd5c426d7d6b
-  with:
-    package: lxc-commands-1.2-amd64
-    package_root: /release
-    maintainer: Mikkel Kaas <mkaas@openlab.dk>
-    version: 1.2
-    installed_size: 1152
-    arch: amd64
-    desc: Commands that makes controlling and using LXC a lot easier.
-    compress_type: gzip
+jobs:
+  build:
+    - name: build-deb-action
+      uses: Centralize/lxc@97ce03d5334e3f032026bb472d31fd5c426d7d6b
+        with:
+          package: lxc-commands-1.2-amd64
+          package_root: /release
+          maintainer: Mikkel Kaas <mkaas@openlab.dk>
+          version: 1.2
+          installed_size: 1152
+          arch: amd64
+          desc: Commands that makes controlling and using LXC a lot easier.
+          compress_type: gzip
