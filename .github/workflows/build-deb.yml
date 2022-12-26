@@ -1,5 +1,5 @@
 name: build-deb-action
-  uses: Centralize/lxc@97ce03d5334e3f032026bb472d31fd5c426d7d6b
+uses: Centralize/lxc@97ce03d5334e3f032026bb472d31fd5c426d7d6b
   with:
     package: lxc-commands-1.2-amd64
     package_root: /release
