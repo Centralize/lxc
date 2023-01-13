@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#set -x
+
+NIC=`ip route show default 0.0.0.0/0 | cut -d ' ' -f 5`
+LXC_PRESENT=`which lxc`
+
+if [ -z $LXC_PRESENT ]; then
+	echo "Error: LXC not installed."
+	exit 1
+fi
+
+lxc profile create macvlan
+lxc profile device add macvlan eth0 nic nictype=macvlan parent=$NIC
+
+lxc profile show macvlan
