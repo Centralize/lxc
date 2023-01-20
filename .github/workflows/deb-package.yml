@@ -1,12 +1,32 @@
-on: push
+name: build
+
+on: 
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
-  build-debs:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jtdor/build-deb-action@v1
-        env:
-          DEB_BUILD_OPTIONS: noautodbgsym
+      
+      - name: Prepare build
+        run: |
+          mkdir -p .debpkg/usr/local/bin
+          mkdir -p .debpkg/DEBIAN
+          copy *lx* .debpkg/usr/local/bin
+          copy setupNetwork .debpkg/usr/local/bin
+          #echo "Package: .debpkg" > .debpkg/DEBIAN/control
+          #echo "Version: 'v*.*.*'" >> .debpkg/DEBIAN/control
+          #echo "Architecture: arm64" >> .debpkg/DEBIAN/control
+          #echo "Maintainer: Centralize <mkaas@openlab.dk>" >> .debpkg/DEBIAN/control
+          #echo "Description: LXC-Tools is a set of tools to ease the use of LXC." >> .debpkg/DEBIAN/control
+      - uses: jiro4989/build-deb-action@v2
         with:
-          buildpackage-opts: --build=binary --no-sign
+          package: lxc-tools-${{ github.ref }}-amd64
+          package_root: .debpkg
+          maintainer: Centralize <mkaas@openlab.dk>
+          version: ${{ github.ref }} # refs/tags/v*.*.*
+          arch: 'amd64'
+          desc: 'LXC-Tools is a set of tools to ease the use of LXC.'
