@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CONTAINER=$1
+OS=`lxc config show autoSetup | grep image.os | cut -d ':' -f2`
+VERSION=`lxc config show autoSetup | grep image.version | cut -d ':' -f2 | cut -d '"' -f2`
+
+echo "Refresh $CONTAINER"
+
+rmlx $CONTAINER
+newdlx $OS:$VERSION $CONTAINER
+echo "Done."
