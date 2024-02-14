@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CONTAINER=$1
+
+lxc file push /root/.ssh/authorized_keys $CONTAINER/root/.ssh/authorized_keys
