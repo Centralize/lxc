@@ -1,11 +1,14 @@
 #!/bin/bash
 
+set -x
+
 CONTAINER=$1
-OS=`lxc config show autoSetup | grep image.os | cut -d ':' -f2`
-VERSION=`lxc config show autoSetup | grep image.version | cut -d ':' -f2 | cut -d '"' -f2`
+OS=`lxc config show $CONTAINER | grep image.os | cut -d ':' -f2`
+VERSION=`lxc config show $CONTAINER | grep image.version | cut -d ':' -f2 | cut -d '"' -f2`
 
 echo "Refresh $CONTAINER"
 
 rmlx $CONTAINER
 newdlx $OS:$VERSION $CONTAINER
+lxc file push ~/.ssh/authorized_keys $CONTAINER/root/.ssh/authorized_keys
 echo "Done."

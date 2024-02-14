@@ -1,7 +1,10 @@
 #!/usr/bin/bash
 
+set -x
+
 OS=$1
 NAME=$2
 
 lxc launch $OS $NAME --profile default
+lxc file push ~/.ssh/authorized_keys $NAME/root/.ssh/authorized_keys
 exit 0
