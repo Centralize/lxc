@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+echo "Installing lxc-tools..."
+sudo cp *lx /usr/local/bin/
+sudo cp setupNetwork /usr/local/bin/
+sudo cp authkey /usr/local/bin/
+echo "Done."
