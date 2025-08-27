@@ -1,0 +1,1013 @@
+Server initialized for threading.
+2025-08-27 20:23:33,283 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:23:33,283 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:23:33,283 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:23:33,283 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+Traceback (most recent call last):
+  File "/home/mkaas/Development/lxc/server.py", line 523, in <module>
+    main()
+  File "/home/mkaas/Development/lxc/server.py", line 519, in main
+    server.run(host=host, port=port, debug=debug)
+  File "/home/mkaas/Development/lxc/server.py", line 507, in run
+    self.socketIo.run(self.app, host=host, port=port, debug=debug)
+  File "/home/mkaas/Development/lxc/venv/lib/python3.12/site-packages/flask_socketio/__init__.py", line 640, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Server initialized for threading.
+2025-08-27 20:24:11,861 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:24:11,861 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:24:11,861 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:24:11,861 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+Traceback (most recent call last):
+  File "/home/mkaas/Development/lxc/server.py", line 523, in <module>
+    main()
+  File "/home/mkaas/Development/lxc/server.py", line 519, in main
+    server.run(host=host, port=port, debug=debug)
+  File "/home/mkaas/Development/lxc/server.py", line 507, in run
+    self.socketIo.run(self.app, host=host, port=port, debug=debug)
+  File "/home/mkaas/Development/lxc/venv/lib/python3.12/site-packages/flask_socketio/__init__.py", line 640, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+Server initialized for threading.
+2025-08-27 20:25:07,392 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:25:07,392 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:25:07,392 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:25:07,392 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:25:07,392 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-08-27 20:25:07,392 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'server'
+ * Debug mode: off
+2025-08-27 20:25:07,396 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.15.135:5000
+2025-08-27 20:25:07,396 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.15.135:5000
+2025-08-27 20:25:07,396 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-27 20:25:07,396 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+Server initialized for threading.
+2025-08-27 20:27:56,525 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:27:56,525 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:27:56,526 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:27:56,526 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:27:56,526 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-08-27 20:27:56,526 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'server'
+ * Debug mode: off
+2025-08-27 20:27:56,527 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.15.135:5000
+2025-08-27 20:27:56,527 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.15.135:5000
+2025-08-27 20:27:56,527 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-27 20:27:56,527 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-27 20:28:16,373 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:28:16] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-27 20:28:16,373 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:28:16] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-27 20:28:16,449 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:28:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-27 20:28:16,449 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:28:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-27 20:29:48,780 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:29:48] "[33mGET /web HTTP/1.1[0m" 404 -
+2025-08-27 20:29:48,780 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:29:48] "[33mGET /web HTTP/1.1[0m" 404 -
+2025-08-27 20:29:53,472 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:29:53] "[33mGET /web/ HTTP/1.1[0m" 404 -
+2025-08-27 20:29:53,472 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:29:53] "[33mGET /web/ HTTP/1.1[0m" 404 -
+2025-08-27 20:29:56,921 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:29:56] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-27 20:29:56,921 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:29:56] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-27 20:32:14,420 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:32:14,420 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5000
+2025-08-27 20:32:14,421 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-08-27 20:32:14,424 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.15.135:5000
+2025-08-27 20:32:14,424 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-27 20:32:26,332 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:26] "[33mGET /v1/server/status/version HTTP/1.1[0m" 404 -
+2025-08-27 20:32:26,333 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:26] "[33mGET /v1/module/list/?random=1756319545364 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:26,617 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:26] "[33mGET /v1/server/status/updateavailable HTTP/1.1[0m" 404 -
+2025-08-27 20:32:26,855 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:26] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:27,145 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:27] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:27,434 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:27] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:27,723 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:27] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:28,012 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:28] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:28,301 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:28] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:28,590 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:28] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:28,880 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:28] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:29,171 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:29] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:29,460 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:29] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:29,749 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:29] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:30,037 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:30] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:30,325 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:30] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:30,614 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:30] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:30,903 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:30] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,193 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,373 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/module/list/status?random=1756319550366 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,376 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/module/list/?random=1756319550366 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,378 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/server/status/system-status HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,381 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/server/status/ping HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,382 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/server/mesh/summary HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,481 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:31,770 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:31] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:32:32,060 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:32:32] "[33mGET /v1/log/list?count=100&last_id=0 HTTP/1.1[0m" 404 -
+2025-08-27 20:33:09,539 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:33:09,539 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5050
+2025-08-27 20:33:09,539 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-08-27 20:33:09,542 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://172.24.15.135:5050
+2025-08-27 20:33:09,542 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-27 20:33:18,775 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:33:18] "GET / HTTP/1.1" 200 -
+2025-08-27 20:33:18,797 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:33:18] "GET /style.css HTTP/1.1" 200 -
+2025-08-27 20:33:19,012 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:33:19] "GET /app.js HTTP/1.1" 200 -
+2025-08-27 20:33:19,307 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:33:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-27 20:35:21,915 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:35:22,122 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:35:22] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:47:24,355 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-27 20:47:24,384 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:24] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-27 20:47:24,593 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:24] "GET /app.js HTTP/1.1" 200 -
+2025-08-27 20:47:24,885 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:47:26,121 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:26] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:47:26,414 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:26] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:47:27,652 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:27] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:47:29,839 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:29] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:47:32,063 - lxc-api - INFO - Executing command: lxc info dev01
+2025-08-27 20:47:32,258 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:32] "POST /api/containers/dev01/connect HTTP/1.1" 200 -
+2025-08-27 20:47:33,920 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:33] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:47:39,075 - socketio.server - INFO - emitting event "container_update" to all [/]
+2025-08-27 20:47:39,075 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/redolx dev01
+2025-08-27 20:47:41,608 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:47:41,793 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:41] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:47:41,820 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:41] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:47:42,537 - socketio.server - INFO - emitting event "container_update" to all [/]
+2025-08-27 20:47:42,537 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:42] "POST /api/containers/dev01/restart HTTP/1.1" 200 -
+2025-08-27 20:47:42,828 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:47:42,988 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:42] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:47:54,810 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:47:54,967 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:54] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:47:59,021 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:47:59] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:48:25,313 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:48:25,477 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:48:25] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:48:55,256 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:48:55,417 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:48:55] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:49:24,168 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:49:24,321 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:49:24] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:49:51,109 - lxc-api - INFO - Executing command: sudo /home/mkaas/Development/lxc/lstImages
+2025-08-27 20:49:51,218 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:49:51] "GET /api/images HTTP/1.1" 200 -
+2025-08-27 20:49:53,756 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:49:53,919 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:49:53] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:50:24,409 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:50:24,560 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:50:24] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:50:24,977 - lxc-api - INFO - Executing command: sudo /home/mkaas/Development/lxc/lstImages
+2025-08-27 20:50:25,098 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:50:25] "GET /api/images HTTP/1.1" 200 -
+2025-08-27 20:50:47,596 - lxc-api - INFO - LXC API Server initialized
+2025-08-27 20:50:47,596 - lxc-api - INFO - Starting LXC API Server on 0.0.0.0:5050
+2025-08-27 20:50:47,596 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-08-27 20:50:47,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://172.24.15.135:5050
+2025-08-27 20:50:47,600 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-27 20:50:54,583 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:50:54,748 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:50:54] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:51:01,590 - lxc-api - INFO - Executing command: sudo /home/mkaas/Development/lxc/lstImages
+2025-08-27 20:51:01,680 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:51:01] "GET /api/images HTTP/1.1" 200 -
+2025-08-27 20:51:24,508 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:51:24,667 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:51:24] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:51:55,030 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:51:56,318 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:51:56] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:52:24,956 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:52:25,127 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:52:25] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:52:55,455 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:52:55,632 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:52:55] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:53:23,559 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:53:23,744 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:53:23] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:53:54,040 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:53:54,208 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:53:54] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:54:23,960 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:54:24,130 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:54:24] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:54:54,444 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:54:54,612 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:54:54] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:55:24,365 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:55:24,531 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:55:24] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:55:55,126 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:55:55,304 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:55:55] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:56:25,059 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:56:25,211 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:56:25] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:56:55,548 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:56:55,748 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:56:55] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:57:00,214 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:00] "GET / HTTP/1.1" 200 -
+2025-08-27 20:57:00,494 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:00] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-27 20:57:00,529 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:00] "GET /app.js HTTP/1.1" 200 -
+2025-08-27 20:57:00,818 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:57:01,001 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:01] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:57:01,050 - lxc-api - INFO - Executing command: sudo /home/mkaas/Development/lxc/lstImages
+2025-08-27 20:57:01,185 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:01] "GET /api/images HTTP/1.1" 200 -
+2025-08-27 20:57:01,474 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:01] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:57:02,693 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:02] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:57:04,849 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:04] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:57:08,848 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:08] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:57:10,822 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:10] "[31m[1mPOST /api/containers HTTP/1.1[0m" 400 -
+2025-08-27 20:57:16,555 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:16] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:57:17,064 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:17] "[31m[1mPOST /api/containers HTTP/1.1[0m" 400 -
+2025-08-27 20:57:21,899 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:57:22,066 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:22] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:57:31,176 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:57:31,352 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:31] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:57:34,278 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:57:34] "[31m[1mGET /ws HTTP/1.1[0m" 400 -
+2025-08-27 20:58:00,903 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:58:01,066 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:58:01] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:58:29,348 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:58:29,502 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:58:29] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:58:59,241 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:58:59,468 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:58:59] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:59:29,825 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:59:29,995 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:59:29] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:59:46,623 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:59:46,814 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:59:46] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:59:47,446 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 20:59:47,603 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:59:47] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 20:59:57,691 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 20:59:57] "[31m[1mPOST /api/containers HTTP/1.1[0m" 400 -
+2025-08-27 21:00:00,027 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:00:00,195 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:00:00] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:00:02,871 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:00:02] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-27 21:00:03,166 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:00:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-27 21:00:30,317 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:00:30,469 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:00:30] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:01:00,541 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:01:00,698 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:01:00] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:01:30,676 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:01:30,844 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:01:30] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:02:01,033 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:02:02,172 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:02] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:02:28,986 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:02:29,192 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:29] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:02:40,646 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:02:40,817 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:40] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:02:41,986 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:41] "GET / HTTP/1.1" 200 -
+2025-08-27 21:02:42,269 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:42] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-27 21:02:42,308 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-27 21:02:42,308 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:42] "GET /app.js HTTP/1.1" 200 -
+2025-08-27 21:02:42,598 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:02:42,753 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:42] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:02:42,832 - lxc-api - INFO - Executing command: sudo /home/mkaas/Development/lxc/lstImages
+2025-08-27 21:02:42,952 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:42] "GET /api/images HTTP/1.1" 200 -
+2025-08-27 21:02:49,252 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-27 21:02:49,530 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:49] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-08-27 21:02:49,558 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:49] "[36mGET /app.js HTTP/1.1[0m" 304 -
+2025-08-27 21:02:49,559 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-27 21:02:49,842 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:02:50,010 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:02:50,072 - lxc-api - INFO - Executing command: sudo /home/mkaas/Development/lxc/lstImages
+2025-08-27 21:02:50,165 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:02:50] "GET /api/images HTTP/1.1" 200 -
+2025-08-27 21:03:19,770 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:03:19,953 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:03:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:03:50,423 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:03:50,625 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:03:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:04:20,335 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:04:20,503 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:04:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:04:50,835 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:04:50,989 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:04:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:05:18,950 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:05:19,103 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:05:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:05:49,456 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:05:49,616 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:05:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:06:19,385 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:06:19,554 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:06:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:06:49,890 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:06:50,121 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:06:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:07:20,199 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:07:20,353 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:07:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:07:50,706 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:07:50,868 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:07:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:09:16,491 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:09:16,638 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:09:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:10:16,832 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:10:17,015 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:10:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:11:17,707 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:11:17,857 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:11:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:12:17,765 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:12:17,951 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:12:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:13:16,592 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:13:16,760 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:13:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:14:16,755 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:14:16,934 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:14:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:15:17,463 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:15:17,621 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:15:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:16:17,839 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:16:18,075 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:16:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:17:18,418 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:17:18,587 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:17:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:18:16,603 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:18:16,780 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:18:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:19:17,491 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:19:17,648 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:19:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:20:17,810 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:20:18,026 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:20:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:21:18,427 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:21:18,591 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:21:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:22:16,534 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:22:16,705 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:22:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:23:17,238 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:23:17,460 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:23:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:24:17,607 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:24:17,774 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:24:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:25:18,323 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:25:18,473 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:25:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:26:16,647 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:26:16,828 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:26:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:27:17,368 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:27:17,567 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:27:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:28:17,524 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:28:17,704 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:28:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:29:18,252 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:29:18,413 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:29:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:30:16,501 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:30:16,679 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:30:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:31:17,217 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:31:17,372 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:31:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:32:17,460 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:32:17,627 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:32:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:33:18,201 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:33:18,363 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:33:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:34:16,464 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:34:16,634 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:34:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:35:17,188 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:35:17,331 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:35:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:36:17,362 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:36:17,542 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:36:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:37:18,238 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:37:18,394 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:37:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:38:16,760 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:38:16,913 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:38:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:39:16,655 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:39:16,818 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:39:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:40:13,731 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:40:13,906 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:40:13] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:40:13,957 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:40:14,134 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:40:14] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:40:19,686 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:40:19,838 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:40:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:40:50,851 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:40:51,147 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:40:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:41:20,878 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:41:21,144 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:41:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:42:16,645 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:42:16,925 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:42:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:43:16,715 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:43:16,991 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:43:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:44:17,663 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:44:17,945 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:44:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:45:17,837 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:45:18,112 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:45:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:46:16,639 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:46:16,900 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:46:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:47:16,844 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:47:17,111 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:47:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:48:17,621 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:48:17,876 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:48:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:49:17,820 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:49:18,090 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:49:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:50:16,412 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:50:16,672 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:50:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:51:17,027 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:51:17,293 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:51:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:52:17,593 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:52:17,878 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:52:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:53:17,819 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:53:18,086 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:53:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:54:16,580 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:54:16,833 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:54:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:55:16,756 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:55:17,005 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:55:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:56:17,554 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:56:17,810 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:56:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:57:17,854 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:57:18,130 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:57:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:58:16,573 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:58:16,751 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:58:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 21:59:16,719 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 21:59:16,909 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 21:59:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:00:17,672 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:00:17,831 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:00:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:01:18,088 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:01:18,291 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:01:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:02:16,440 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:02:16,611 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:02:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:03:16,637 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:03:16,801 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:03:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:04:17,527 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:04:17,688 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:04:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:05:17,972 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:05:18,172 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:05:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:06:16,636 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:06:16,854 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:06:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:07:16,846 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:07:17,026 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:07:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:08:17,626 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:08:17,777 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:08:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:09:17,834 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:09:18,046 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:09:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:10:16,679 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:10:16,851 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:10:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:11:16,834 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:11:17,054 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:11:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:12:17,576 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:12:17,768 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:12:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:13:17,821 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:13:18,025 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:13:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:14:16,638 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:14:16,807 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:14:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:15:16,806 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:15:17,014 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:15:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:16:17,591 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:16:17,787 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:16:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:17:17,823 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:17:18,050 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:17:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:18:16,526 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:18:16,727 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:18:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:19:16,799 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:19:17,006 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:19:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:20:17,976 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:20:18,150 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:20:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:21:18,014 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:21:18,222 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:21:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:22:16,411 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:22:16,579 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:22:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:23:16,604 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:23:16,792 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:23:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:24:17,555 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:24:17,763 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:24:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:25:18,078 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:25:18,283 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:25:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:26:16,199 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:26:16,411 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:26:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:27:16,863 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:27:17,048 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:27:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:28:17,717 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:28:17,910 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:28:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:29:17,995 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:29:18,223 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:29:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:30:16,650 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:30:16,844 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:30:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:31:16,941 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:31:17,143 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:31:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:32:17,796 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:32:17,987 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:32:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:33:18,076 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:33:18,274 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:33:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:34:16,538 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:34:16,747 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:34:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:35:16,978 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:35:17,201 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:35:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:36:17,893 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:36:18,069 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:36:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:37:18,166 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:37:18,366 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:37:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:38:16,767 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:38:16,956 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:38:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:39:17,037 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:39:17,276 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:39:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:40:18,191 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:40:18,375 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:40:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:41:18,241 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:41:18,427 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:41:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:42:16,673 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:42:16,844 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:42:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:43:17,305 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:43:17,530 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:43:17] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:44:18,269 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:44:18,431 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:44:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:45:16,014 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:45:16,237 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:45:16] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:45:19,552 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:45:19,740 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:45:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:45:20,892 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:45:21,139 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:45:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:45:48,997 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:45:49,230 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:45:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:46:18,867 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:46:19,073 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:46:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:46:28,901 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:46:29,117 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:46:29] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:46:35,535 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:46:35] "[31m[1mPOST /api/containers HTTP/1.1[0m" 400 -
+2025-08-27 22:46:39,809 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:46:40,007 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:46:40] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:46:49,088 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:46:49,271 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:46:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:47:19,718 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:47:19,928 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:47:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:47:50,060 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:47:50,262 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:47:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:48:20,602 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:48:20,775 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:48:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:48:50,598 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:48:50,797 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:48:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:49:21,161 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:49:21,328 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:49:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:49:48,977 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:49:49,200 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:49:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:50:19,542 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:50:19,771 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:50:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:50:49,541 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:50:49,742 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:50:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:51:20,112 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:51:20,332 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:51:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:51:50,108 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:51:50,286 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:51:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:52:20,671 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:52:20,883 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:52:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:52:50,665 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:52:50,839 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:52:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:53:19,054 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:53:19,252 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:53:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:53:49,053 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:53:49,301 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:53:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:54:19,620 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:54:19,873 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:54:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:54:49,490 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:54:49,722 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:54:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:55:20,285 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:55:20,511 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:55:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:55:50,188 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:55:50,352 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:55:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:56:20,759 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:56:20,978 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:56:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:56:50,747 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:56:50,956 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:56:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:57:19,095 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:57:19,330 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:57:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:57:49,084 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:57:49,286 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:57:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:58:19,650 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:58:19,868 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:58:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:58:49,645 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:58:49,851 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:58:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:59:20,238 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:59:20,441 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:59:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 22:59:50,293 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 22:59:50,504 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 22:59:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:00:20,890 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:00:21,127 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:00:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:00:50,832 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:00:51,044 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:00:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:01:19,081 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:01:19,323 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:01:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:01:49,216 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:01:49,456 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:01:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:02:19,805 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:02:20,038 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:02:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:02:49,919 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:02:50,109 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:02:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:03:20,448 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:03:20,654 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:03:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:03:50,557 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:03:50,732 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:03:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:04:21,113 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:04:21,348 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:04:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:04:48,607 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:04:48,818 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:04:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:05:19,089 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:05:19,301 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:05:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:05:49,009 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:05:49,253 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:05:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:06:19,653 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:06:19,829 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:06:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:06:49,744 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:06:49,958 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:06:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:07:20,445 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:07:20,668 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:07:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:07:50,597 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:07:50,797 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:07:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:08:21,209 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:08:21,445 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:08:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:08:48,671 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:08:48,940 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:08:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:09:19,123 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:09:19,374 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:09:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:09:49,018 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:09:49,232 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:09:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:10:20,173 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:10:20,358 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:10:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:10:50,041 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:10:50,225 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:10:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:11:20,575 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:11:20,826 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:11:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:11:50,543 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:11:50,733 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:11:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:12:21,079 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:12:21,306 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:12:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:12:49,037 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:12:49,218 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:12:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:13:19,572 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:13:19,797 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:13:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:13:49,537 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:13:49,737 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:13:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:14:20,091 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:14:20,286 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:14:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:14:50,036 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:14:50,198 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:14:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:15:20,571 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:15:20,796 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:15:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:15:50,536 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:15:50,741 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:15:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:16:21,080 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:16:21,310 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:16:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:16:48,920 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:16:49,129 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:16:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:17:19,457 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:17:19,637 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:17:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:17:49,538 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:17:49,714 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:17:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:18:20,062 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:18:20,240 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:18:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:18:50,036 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:18:50,246 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:18:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:19:20,587 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:19:20,779 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:19:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:19:50,560 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:19:50,737 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:19:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:20:21,107 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:20:21,340 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:20:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:20:48,922 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:20:49,110 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:20:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:21:19,453 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:21:19,643 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:21:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:21:49,411 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:21:49,602 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:21:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:22:20,262 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:22:20,448 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:22:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:22:50,254 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:22:50,421 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:22:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:23:20,953 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:23:21,162 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:23:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:23:50,724 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:23:50,944 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:23:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:24:21,259 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:24:21,537 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:24:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:24:48,975 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:24:49,186 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:24:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:25:19,519 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:25:19,774 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:25:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:25:49,479 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:25:49,661 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:25:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:26:19,956 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:26:20,149 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:26:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:26:50,092 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:26:50,255 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:26:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:27:20,865 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:27:21,088 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:27:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:27:50,884 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:27:51,059 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:27:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:28:18,902 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:28:19,083 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:28:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:28:48,772 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:28:48,955 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:28:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:29:19,265 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:29:19,435 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:29:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:29:49,383 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:29:49,554 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:29:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:30:20,114 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:30:20,310 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:30:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:30:50,394 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:30:50,575 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:30:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:31:21,104 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:31:21,275 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:31:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:31:50,981 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:31:51,161 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:31:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:32:18,951 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:32:19,120 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:32:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:32:49,707 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:32:49,897 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:32:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:33:19,171 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:33:19,391 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:33:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:33:49,926 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:33:50,093 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:33:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:34:20,353 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:34:20,515 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:34:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:34:50,386 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:34:50,573 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:34:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:35:20,938 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:35:21,118 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:35:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:35:50,926 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:35:51,106 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:35:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:36:19,237 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:36:19,455 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:36:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:36:49,241 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:36:49,421 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:36:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:37:19,815 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:37:19,982 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:37:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:37:49,849 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:37:50,021 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:37:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:38:20,448 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:38:20,618 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:38:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:38:50,456 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:38:50,626 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:38:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:39:21,024 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:39:21,220 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:39:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:39:48,771 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:39:48,964 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:39:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:40:19,339 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:40:19,513 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:40:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:40:49,327 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:40:49,582 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:40:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:41:19,941 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:41:20,124 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:41:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:41:49,953 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:41:50,136 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:41:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:42:20,545 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:42:20,704 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:42:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:42:50,651 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:42:50,825 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:42:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:43:21,176 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:43:21,415 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:43:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:43:48,922 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:43:49,103 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:43:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:44:19,433 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:44:19,625 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:44:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:44:49,448 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:44:49,642 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:44:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:45:20,345 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:45:20,547 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:45:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:45:50,195 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:45:50,392 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:45:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:46:20,948 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:46:21,165 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:46:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:46:50,946 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:46:51,129 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:46:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:47:18,822 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:47:19,050 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:47:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:47:48,674 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:47:48,872 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:47:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:48:19,247 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:48:19,421 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:48:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:48:49,684 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:48:49,871 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:48:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:49:20,379 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:49:20,543 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:49:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:49:50,309 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:49:50,485 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:49:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:50:20,961 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:50:21,144 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:50:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:50:51,002 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:50:51,206 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:50:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:51:18,908 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:51:19,119 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:51:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:51:48,804 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:51:48,962 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:51:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:52:19,496 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:52:19,649 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:52:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:52:49,674 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:52:49,912 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:52:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:53:20,457 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:53:20,639 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:53:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:53:50,699 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:53:50,878 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:53:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:54:21,335 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:54:21,583 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:54:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:54:48,638 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:54:48,845 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:54:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:55:19,820 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:55:19,998 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:55:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:55:48,844 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:55:49,004 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:55:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:56:20,078 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:56:20,252 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:56:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:56:50,008 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:56:50,193 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:56:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:57:20,622 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:57:20,839 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:57:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:57:50,638 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:57:50,810 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:57:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:58:21,224 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:58:21,415 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:58:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:58:48,873 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:58:49,040 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:58:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:59:19,466 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:59:19,688 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:59:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-27 23:59:49,511 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-27 23:59:49,684 - werkzeug - INFO - 127.0.0.1 - - [27/Aug/2025 23:59:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:00:20,125 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:00:20,352 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:00:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:00:50,171 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:00:50,346 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:00:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:01:20,768 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:01:20,954 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:01:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:01:50,797 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:01:50,992 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:01:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:02:19,004 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:02:19,184 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:02:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:02:49,032 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:02:49,213 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:02:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:03:19,601 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:03:19,828 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:03:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:03:49,640 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:03:49,846 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:03:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:04:20,375 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:04:20,608 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:04:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:04:50,643 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:04:50,824 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:04:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:05:21,132 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:05:21,376 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:05:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:05:50,995 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:05:51,185 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:05:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:06:19,082 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:06:19,251 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:06:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:06:49,397 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:06:49,592 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:06:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:07:19,809 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:07:20,000 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:07:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:07:49,849 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:07:50,016 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:07:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:08:20,623 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:08:20,803 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:08:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:08:50,826 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:08:51,046 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:08:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:09:21,339 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:09:21,545 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:09:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:09:48,533 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:09:48,767 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:09:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:10:19,212 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:10:19,452 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:10:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:10:49,183 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:10:49,391 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:10:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:11:19,975 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:11:20,177 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:11:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:11:50,153 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:11:50,329 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:11:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:12:20,904 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:12:21,088 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:12:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:12:51,049 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:12:51,239 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:12:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:13:18,816 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:13:19,048 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:13:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:13:48,841 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:13:49,039 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:13:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:14:19,420 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:14:19,636 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:14:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:14:50,074 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:14:50,284 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:14:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:15:20,056 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:15:20,252 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:15:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:15:50,304 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:15:50,522 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:15:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:16:20,964 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:16:21,162 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:16:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:16:48,360 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:16:48,581 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:16:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:17:19,024 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:17:19,255 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:17:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:17:49,132 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:17:49,357 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:17:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:18:19,801 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:18:19,984 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:18:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:18:49,915 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:18:50,133 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:18:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:19:20,578 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:19:20,769 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:19:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:19:50,672 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:19:50,875 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:19:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:20:21,328 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:20:21,598 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:20:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:20:48,721 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:20:48,925 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:20:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:21:19,397 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:21:19,588 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:21:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:21:49,508 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:21:49,722 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:21:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:22:20,177 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:22:20,403 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:22:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:22:50,290 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:22:50,489 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:22:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:23:20,943 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:23:21,202 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:23:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:23:48,346 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:23:51,256 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:23:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:24:19,034 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:24:19,283 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:24:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:24:49,053 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:24:49,307 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:24:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:25:19,743 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:25:19,967 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:25:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:25:50,178 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:25:50,376 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:25:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:26:20,782 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:26:21,035 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:26:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:26:50,881 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:26:51,067 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:26:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:27:21,316 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:27:21,525 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:27:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:27:48,676 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:27:48,850 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:27:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:28:19,421 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:28:19,600 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:28:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:28:49,614 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:28:49,792 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:28:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:29:20,270 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:29:20,495 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:29:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:29:50,464 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:29:50,655 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:29:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:30:21,136 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:30:21,370 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:30:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:30:51,058 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:30:51,338 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:30:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:31:18,843 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:31:19,043 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:31:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:31:48,888 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:31:49,069 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:31:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:32:19,578 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:32:19,759 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:32:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:32:49,822 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:32:50,002 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:32:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:33:20,564 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:33:20,785 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:33:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:33:50,777 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:33:50,986 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:33:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:34:21,369 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:34:21,622 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:34:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:34:48,518 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:34:48,690 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:34:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:35:19,080 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:35:19,275 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:35:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:35:49,929 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:35:50,124 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:35:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:36:19,801 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:36:20,027 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:36:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:36:50,693 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:36:50,885 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:36:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:37:20,763 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:37:20,960 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:37:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:37:50,896 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:37:51,075 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:37:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:38:18,809 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:38:19,064 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:38:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:38:48,656 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:38:48,848 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:38:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:39:19,147 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:39:19,383 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:39:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:39:49,490 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:39:49,705 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:39:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:40:20,050 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:40:20,292 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:40:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:40:50,311 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:40:50,523 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:40:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:41:21,015 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:41:21,193 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:41:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:41:48,417 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:41:48,600 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:41:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:42:18,757 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:42:18,939 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:42:18] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:42:48,817 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:42:48,974 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:42:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:43:19,437 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:43:19,656 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:43:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:43:49,672 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:43:49,866 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:43:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:44:20,423 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:44:20,647 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:44:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:44:50,674 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:44:50,855 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:44:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:45:21,374 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:45:21,552 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:45:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:45:48,504 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:45:48,738 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:45:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:46:19,077 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:46:19,287 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:46:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:46:49,564 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:46:49,744 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:46:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:47:20,270 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:47:20,471 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:47:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:47:50,351 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:47:50,543 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:47:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:48:20,990 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:48:21,190 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:48:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:48:51,034 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:48:51,201 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:48:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:49:18,948 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:49:19,143 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:49:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:49:49,027 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:49:49,212 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:49:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:50:19,648 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:50:19,852 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:50:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:50:49,840 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:50:50,016 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:50:50] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:51:20,646 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:51:20,841 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:51:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:51:51,101 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:51:51,288 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:51:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:52:21,398 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:52:21,629 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:52:21] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:52:48,712 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:52:48,918 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:52:48] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:53:19,443 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:53:19,602 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:53:19] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:53:49,638 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:53:49,851 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:53:49] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:54:20,355 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:54:20,597 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:54:20] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:54:50,787 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:54:51,013 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:54:51] "GET /api/containers HTTP/1.1" 200 -
+2025-08-28 00:55:21,520 - lxc-api - INFO - Executing command: /home/mkaas/Development/lxc/lx
+2025-08-28 00:55:21,743 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 00:55:21] "GET /api/containers HTTP/1.1" 200 -

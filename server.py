@@ -13,7 +13,7 @@ import threading
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory, send_file
 from flask_cors import CORS
 from flask_socketio import SocketIO, emit, join_room, leave_room
 import psutil
@@ -151,6 +151,19 @@ class LxcApiServer:
     def setupRoutes(self):
         """Setup all API routes."""
         
+        @self.app.route('/')
+        def serveIndex():
+            """Serve the main index.html file."""
+            return send_file(os.path.join(self.projectRoot, 'web', 'index.html'))
+        
+        @self.app.route('/<path:filename>')
+        def serveStaticFiles(filename):
+            """Serve static files from web directory."""
+            try:
+                return send_from_directory(os.path.join(self.projectRoot, 'web'), filename)
+            except FileNotFoundError:
+                return send_file(os.path.join(self.projectRoot, 'web', 'index.html'))
+        
         @self.app.route('/api/health', methods=['GET'])
         def healthCheck():
             """Health check endpoint."""
@@ -202,8 +215,10 @@ class LxcApiServer:
             """Create a new LXC container."""
             try:
                 data = request.get_json()
+                self.logger.info(f"Create container request data: {data}")
                 
                 if not data or 'image' not in data or 'name' not in data:
+                    self.logger.error(f"Missing fields in request: {data}")
                     return jsonify({'error': 'Missing required fields: image, name'}), 400
                 
                 containerName = data['name']
@@ -303,6 +318,34 @@ class LxcApiServer:
                 self.logger.error(f"Error restarting container: {str(e)}")
                 return jsonify({'error': 'Internal server error'}), 500
 
+        @self.app.route('/api/containers/<containerName>/start', methods=['POST'])
+        def startContainer(containerName):
+            """Start an LXC container."""
+            try:
+                if not self.validateContainerName(containerName):
+                    return jsonify({'error': 'Invalid container name'}), 400
+                
+                self.broadcastUpdate('container_start_start', {'name': containerName})
+                
+                success, stdout, stderr = self.executeCommand(['lxc', 'start', containerName])
+                
+                if success:
+                    self.broadcastUpdate('container_start_success', {'name': containerName})
+                    return jsonify({'message': f'Container {containerName} started successfully'})
+                else:
+                    self.broadcastUpdate('container_start_error', {
+                        'name': containerName,
+                        'error': stderr
+                    })
+                    return jsonify({
+                        'error': 'Failed to start container',
+                        'details': stderr
+                    }), 500
+                    
+            except Exception as e:
+                self.logger.error(f"Error starting container: {str(e)}")
+                return jsonify({'error': 'Internal server error'}), 500
+
         @self.app.route('/api/containers/<containerName>/connect', methods=['POST'])
         def getConnectionInfo(containerName):
             """Get connection information for a container."""
@@ -356,14 +399,16 @@ class LxcApiServer:
                 lines = stdout.split('\n')
                 
                 for line in lines[3:]:  # Skip header lines
-                    if line.strip() and '|' in line:
+                    if line.strip() and '|' in line and not line.strip().startswith('+'):
                         parts = [p.strip() for p in line.split('|')]
-                        if len(parts) >= 3 and parts[1]:  # Has alias
+                        if len(parts) >= 4:  # Has fingerprint and description
+                            alias = parts[1] if parts[1] else parts[2]  # Use fingerprint if no alias
+                            description = parts[4] if len(parts) > 4 else 'LXC Image'
                             images.append({
-                                'alias': parts[1],
+                                'alias': alias,
                                 'fingerprint': parts[2] if len(parts) > 2 else '',
                                 'public': parts[3] if len(parts) > 3 else '',
-                                'description': parts[4] if len(parts) > 4 else '',
+                                'description': description,
                                 'architecture': parts[5] if len(parts) > 5 else '',
                                 'size': parts[6] if len(parts) > 6 else ''
                             })
@@ -504,7 +549,7 @@ class LxcApiServer:
     def run(self, host='0.0.0.0', port=5000, debug=False):
         """Run the Flask application with SocketIO."""
         self.logger.info(f"Starting LXC API Server on {host}:{port}")
-        self.socketIo.run(self.app, host=host, port=port, debug=debug)
+        self.socketIo.run(self.app, host=host, port=port, debug=debug, allow_unsafe_werkzeug=True)
 
 
 def main():
@@ -513,7 +558,7 @@ def main():
     
     # Get configuration from environment variables
     host = os.getenv('LXC_API_HOST', '0.0.0.0')
-    port = int(os.getenv('LXC_API_PORT', '5000'))
+    port = int(os.getenv('LXC_API_PORT', '5050'))
     debug = os.getenv('LXC_API_DEBUG', 'false').lower() == 'true'
     
     server.run(host=host, port=port, debug=debug)

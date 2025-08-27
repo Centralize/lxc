@@ -5,10 +5,11 @@
 
 class LXCManager {
     constructor() {
-        this.apiBaseUrl = 'http://localhost:8080/api'; // Adjust based on your backend
-        this.wsUrl = 'ws://localhost:8080/ws'; // WebSocket endpoint
+        this.apiBaseUrl = 'http://localhost:5050/api'; // Adjust based on your backend
+        this.wsUrl = 'http://localhost:5050'; // SocketIO endpoint
         this.websocket = null;
         this.containers = [];
+        this.availableImages = [];
         this.connectionRetryCount = 0;
         this.maxRetryAttempts = 5;
         
@@ -24,6 +25,7 @@ class LXCManager {
         
         try {
             await this.loadContainers();
+            await this.loadAvailableImages();
             this.connectWebSocket();
         } catch (error) {
             console.error('Failed to initialize:', error);
@@ -76,7 +78,10 @@ class LXCManager {
      */
     connectWebSocket() {
         try {
-            this.websocket = new WebSocket(this.wsUrl);
+            // SocketIO connection requires the socket.io client library
+            // For now, disable WebSocket functionality
+            console.log('WebSocket functionality disabled - requires socket.io client library');
+            return;
             
             this.websocket.onopen = () => {
                 console.log('WebSocket connected');
@@ -203,15 +208,49 @@ class LXCManager {
      */
     async loadContainers() {
         try {
-            // For demo purposes, we'll simulate API calls
-            // In a real implementation, these would be actual API calls
-            this.containers = await this.simulateContainerList();
+            const response = await this.makeApiCall('/containers');
+            this.containers = response.containers.map(container => ({
+                name: container.name,
+                status: container.state.toLowerCase(),
+                os: container.type || 'unknown',
+                ip: container.ipv4 || 'N/A',
+                cpu: 'N/A',
+                memory: 'N/A',
+                uptime: 'N/A'
+            }));
             this.renderContainers();
             this.updateStatusBar();
         } catch (error) {
             console.error('Failed to load containers:', error);
             this.showNotification('Failed to load containers', 'error');
         }
+    }
+
+    async loadAvailableImages() {
+        try {
+            const response = await this.makeApiCall('/images');
+            this.availableImages = response.images;
+            this.populateOsSelector();
+        } catch (error) {
+            console.error('Failed to load available images:', error);
+            this.showNotification('Failed to load available images', 'error');
+        }
+    }
+
+    populateOsSelector() {
+        const osSelector = document.getElementById('containerOS');
+        if (!osSelector) return;
+
+        // Clear existing options except the first placeholder
+        osSelector.innerHTML = '<option value="">Select OS...</option>';
+
+        // Add options from available images
+        this.availableImages.forEach(image => {
+            const option = document.createElement('option');
+            option.value = image.alias;
+            option.textContent = `${image.alias} - ${image.description || 'LXC Image'}`;
+            osSelector.appendChild(option);
+        });
     }
 
     async refreshContainers() {
@@ -228,45 +267,6 @@ class LXCManager {
         }
     }
 
-    /**
-     * Simulate API responses for demo purposes
-     * Replace these with actual API calls to your backend
-     */
-    async simulateContainerList() {
-        return new Promise((resolve) => {
-            setTimeout(() => {
-                resolve([
-                    {
-                        name: 'web-server-01',
-                        status: 'running',
-                        os: 'ubuntu:22.04',
-                        ip: '192.168.1.100',
-                        cpu: '1.2%',
-                        memory: '256MB',
-                        uptime: '2d 5h 30m'
-                    },
-                    {
-                        name: 'database-01',
-                        status: 'running',
-                        os: 'debian:12',
-                        ip: '192.168.1.101',
-                        cpu: '0.8%',
-                        memory: '512MB',
-                        uptime: '1d 12h 15m'
-                    },
-                    {
-                        name: 'dev-environment',
-                        status: 'stopped',
-                        os: 'alpine:3.18',
-                        ip: '192.168.1.102',
-                        cpu: '0%',
-                        memory: '0MB',
-                        uptime: '0m'
-                    }
-                ]);
-            }, 500);
-        });
-    }
 
     /**
      * Render containers in the grid
@@ -376,23 +376,9 @@ class LXCManager {
      */
     async createContainer(name, os) {
         try {
-            // Simulate API call
-            await this.simulateApiCall('create', { name, os });
-            this.showNotification(`Creating container "${name}" with ${os}...`, 'success');
-            
-            // Add to local state optimistically
-            this.containers.push({
-                name,
-                status: 'stopped',
-                os,
-                ip: '192.168.1.' + (100 + this.containers.length),
-                cpu: '0%',
-                memory: '0MB',
-                uptime: '0m'
-            });
-            
-            this.renderContainers();
-            this.updateStatusBar();
+            await this.makeApiCall('/containers', 'POST', { name, image: os });
+            this.showNotification(`Container "${name}" created successfully`, 'success');
+            await this.loadContainers();
         } catch (error) {
             throw new Error(`Failed to create container: ${error.message}`);
         }
@@ -404,15 +390,9 @@ class LXCManager {
         }
 
         try {
-            // Simulate API call
-            await this.simulateApiCall('delete', { name });
-            
-            // Remove from local state
-            this.containers = this.containers.filter(c => c.name !== name);
-            
-            this.renderContainers();
-            this.updateStatusBar();
+            await this.makeApiCall(`/containers/${name}`, 'DELETE');
             this.showNotification(`Container "${name}" deleted successfully`, 'success');
+            await this.loadContainers();
         } catch (error) {
             this.showNotification(`Failed to delete container: ${error.message}`, 'error');
         }
@@ -420,19 +400,9 @@ class LXCManager {
 
     async startContainer(name) {
         try {
-            // Simulate API call
-            await this.simulateApiCall('start', { name });
-            
-            // Update local state
-            const container = this.containers.find(c => c.name === name);
-            if (container) {
-                container.status = 'running';
-                container.uptime = '0m';
-            }
-            
-            this.renderContainers();
-            this.updateStatusBar();
+            await this.makeApiCall(`/containers/${name}/start`, 'POST');
             this.showNotification(`Container "${name}" started`, 'success');
+            await this.loadContainers();
         } catch (error) {
             this.showNotification(`Failed to start container: ${error.message}`, 'error');
         }
@@ -440,9 +410,9 @@ class LXCManager {
 
     async restartContainer(name) {
         try {
-            // Simulate API call
-            await this.simulateApiCall('restart', { name });
+            await this.makeApiCall(`/containers/${name}/restart`, 'POST');
             this.showNotification(`Container "${name}" restarted`, 'success');
+            await this.loadContainers();
         } catch (error) {
             this.showNotification(`Failed to restart container: ${error.message}`, 'error');
         }
@@ -450,14 +420,8 @@ class LXCManager {
 
     async connectToContainer(name) {
         try {
-            // In a real implementation, this might open a terminal in a new tab
-            // or establish a WebSocket connection for terminal access
-            this.showNotification(`Opening connection to "${name}"...`, 'success');
-            
-            // Simulate opening a new terminal window/tab
-            setTimeout(() => {
-                this.showNotification(`Connected to "${name}"`, 'success');
-            }, 1000);
+            const response = await this.makeApiCall(`/containers/${name}/connect`, 'POST');
+            this.showNotification(`Connection info: ${response.connectionCommand}`, 'success');
         } catch (error) {
             this.showNotification(`Failed to connect to container: ${error.message}`, 'error');
         }
@@ -465,11 +429,8 @@ class LXCManager {
 
     async setupPortForward(containerName, hostPort, containerPort) {
         try {
-            // Simulate API call
-            await this.simulateApiCall('portforward', { 
-                container: containerName, 
-                hostPort, 
-                containerPort 
+            await this.makeApiCall(`/containers/${containerName}/portforward`, 'POST', {
+                name: `port-${hostPort}-${containerPort}`
             });
             
             this.showNotification(
@@ -483,31 +444,13 @@ class LXCManager {
 
     async setupNetwork() {
         try {
-            // Simulate API call
-            await this.simulateApiCall('network-setup');
+            await this.makeApiCall('/network/setup', 'POST');
             this.showNotification('Network setup completed successfully', 'success');
         } catch (error) {
             this.showNotification(`Network setup failed: ${error.message}`, 'error');
         }
     }
 
-    /**
-     * Simulate API calls with random delays and potential failures
-     */
-    async simulateApiCall(action, data = null) {
-        return new Promise((resolve, reject) => {
-            const delay = Math.random() * 1000 + 500; // 500-1500ms delay
-            
-            setTimeout(() => {
-                // Simulate occasional failures (10% chance)
-                if (Math.random() < 0.1) {
-                    reject(new Error('Simulated API error'));
-                } else {
-                    resolve({ success: true, action, data });
-                }
-            }, delay);
-        });
-    }
 
     /**
      * Modal Management

@@ -98,18 +98,13 @@
                     <div class="form-group">
                         <label for="containerName">Container Name</label>
                         <input type="text" id="containerName" name="containerName" required 
-                               placeholder="Enter container name" pattern="[a-zA-Z0-9-]+">
+                               placeholder="Enter container name" pattern="[a-zA-Z0-9\-]+">
                         <small>Only letters, numbers, and hyphens allowed</small>
                     </div>
                     <div class="form-group">
                         <label for="containerOS">Operating System</label>
                         <select id="containerOS" name="containerOS" required>
-                            <option value="">Select OS...</option>
-                            <option value="ubuntu:22.04">Ubuntu 22.04 LTS</option>
-                            <option value="ubuntu:20.04">Ubuntu 20.04 LTS</option>
-                            <option value="alpine:3.18">Alpine Linux 3.18</option>
-                            <option value="debian:12">Debian 12</option>
-                            <option value="centos:8">CentOS 8</option>
+                            <option value="">Loading images...</option>
                         </select>
                     </div>
                     <div class="form-actions">
