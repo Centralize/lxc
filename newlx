@@ -3,5 +3,19 @@
 OS=$1
 NAME=$2
 
+if [ -z $OS ]; then
+	echo ""
+	echo "Syntax Error: $0 <OS> <NAME>"
+	echo ""
+	exit 1
+fi
+
+if [ -z $NAME ]; then
+	echo ""
+	echo "Syntax Error: $0 <OS> <NAME>"
+	echo ""
+	exit 2
+fi
+
 lxc launch $OS $NAME --profile default --profile macvlan
 exit 0

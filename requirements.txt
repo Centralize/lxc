@@ -1,0 +1,22 @@
+# LXC Tools Backend API Server Dependencies
+# Core Flask framework and extensions
+Flask==2.3.3
+flask-cors==4.0.0
+flask-socketio==5.3.6
+
+# WebSocket support
+python-socketio==5.8.0
+python-engineio==4.7.1
+
+# System monitoring
+psutil==5.9.5
+
+# Additional utilities for production
+gunicorn==21.2.0
+eventlet==0.33.3
+
+# Development dependencies (optional)
+# pytest==7.4.2
+# pytest-flask==1.2.0
+# black==23.7.0
+# flake8==6.0.0
