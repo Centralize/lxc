@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CONTAINER=$1
+
+lxc export $CONTAINER BACKUP-$CONTAINER.tar.gz --compression="gzip -9" --instance-only -v

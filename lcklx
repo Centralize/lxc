@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#set -x
+
+TODO=$1
+NAME=$2
+PROTECT="true"
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+	echo "SYNTAX ERROR."
+	echo ""
+	echo "Use: $0 <true/false> <logical name>"
+	echo ""
+	exit 0
+fi
+
+if [ $TODO == "false" ]; then
+	lxc config set $NAME security.protection.delete $TODO
+	exit 1
+fi
+
+if [ $TODO == "true" ]; then
+	lxc config set $NAME security.protection.delete $TODO
+	exit 1
+fi
