@@ -13,3 +13,5 @@
 * redolx - Clean and restart container.
 * rmlx - Delete container.
 * setupNetwork - Create macvlan to get LAN IP addresses.
+* explx - Export container.
+* lcklx - Lock or protect container from deletion.
